@@ -43,12 +43,12 @@
 
         layer_1 {
             bindings = <
-&kp F1          &kp F2                &kp F3  &kp F4        &kp F5     &kp F6        &kp F7         &kp F8      &kp F9    &kp F10    &kp F11          &kp F12
-&kp CAPS        &kp GRAVE             &none   &kp PG_UP     &none      &bt BT_NXT    &none          &none       &kp UP    &none      &none            &none
-&kp LEFT_SHIFT  &kp RA(LEFT_CONTROL)  &none   &kp PG_DN     &none      &bt BT_CLR    &none          &kp LEFT    &kp DOWN  &kp RIGHT  &none            &none
-&kp LCTRL       &kp LS(LEFT_ALT)      &none   &none         &none      &none         &mkp MB1       &none       &none     &none      &kp RIGHT_SHIFT  &kp EQUAL
-                                              &kp LEFT_WIN  &kp SPACE  &none         &kp RIGHT_ALT  &kp DELETE
-                                                            &mkp MB2   &mkp MB1      &kp ENTER
+&kp F1          &kp F2            &kp F3  &kp F4        &kp F5     &kp F6        &kp F7         &kp F8      &kp F9    &kp F10    &kp F11          &kp F12
+&kp CAPS        &kp GRAVE         &none   &kp PG_UP     &none      &bt BT_NXT    &none          &none       &kp UP    &none      &none            &none
+&kp LEFT_SHIFT  &kp RA(LC(L))     &none   &kp PG_DN     &none      &bt BT_CLR    &none          &kp LEFT    &kp DOWN  &kp RIGHT  &none            &none
+&kp LCTRL       &kp LS(LEFT_ALT)  &none   &none         &none      &none         &mkp MB1       &none       &none     &none      &kp RIGHT_SHIFT  &kp EQUAL
+                                          &kp LEFT_WIN  &kp SPACE  &none         &kp RIGHT_ALT  &kp DELETE
+                                                        &mkp MB2   &mkp MB1      &kp ENTER
             >;
 
             trackball-bindings = <&tsl>;
